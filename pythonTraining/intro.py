@@ -52,3 +52,35 @@ banana_price = 2
 total_amount_bought = 5
 print(banana_price * total_amount_bought)
 # answer is 10
+
+
+# MATH OPERATORS
+"""
+parentheses : ()
+power : **
+unary minus : -3
+multiplication and division : *, /
+addition and subtraction : +, -
+
+
+some examples:
+
+ print(7 // 2)  # it gives integer part of division
+ print(9 % 2)  # remainder of this division is 1 it means 9 is an odd number 
+
+ a = 17**2
+ b = 27//7
+ c = 17465266254 / 17441267046
+ F = (a//7) + b + c
+ print(a)
+ print(b)
+ print(c)
+ print(F)
+"""
+# Operations with 'print( )' Function
+"""
+number = 2020
+text = "children deserve respect as much as adults in"
+print(text, number)
+
+"""
