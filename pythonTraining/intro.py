@@ -84,3 +84,5 @@ text = "children deserve respect as much as adults in"
 print(text, number)
 
 """
+ta= 16 ---2
+print(ta)
