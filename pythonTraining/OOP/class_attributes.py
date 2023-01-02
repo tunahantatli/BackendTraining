@@ -16,8 +16,9 @@ class User:
         return f"{self.username}"
     
     def Logout(self):
-        return f"{self.username} log out"
-        User.active_users -=1
+        User.active_users -= 1
+        return f"{self.username} log out from system"
+        
 
 print(f"Aktif Kullanıcı Sayısı: {User.active_users}")
 #kullanıcıları oluşturduk
@@ -29,6 +30,14 @@ user4= User("tyttl", "tayyo", "tatlı",23)
 
 #   kişi oluşturulduğunda aktif kulanıcı sayısının bir artmasını 
 #  kullanıcı çıktığında bir azalmasını istiyoruz. class'ın içinden 6. satıra bakalım :D 6yı yeniden düzenledik
-
-
 print(f"Aktif Kullanıcı Sayısı: {User.active_users}")
+print(user1.Logout())
+print(user4.Logout())
+print(f"Aktif Kullanıcı Sayısı: {User.active_users}")
+
+"""
+özetle class attributeler sınıfın içindeki objelerden bağımsız olarak oluşturduğumuz özniteliklerdir.
+"""
+
+
+
